@@ -41,15 +41,16 @@ G4. Add the user to libvirt group using following command
 	</ip>
 </network>
 ======================================================
-      *
+      * Execute following command:
+          * sudo virsh net-define  br10.xml
+	  * sudo virsh net-start br10
+          * sudo virsh net-autostart br10
 
 For more details refer the following youtube video
   * https://www.youtube.com/watch?v=t-VpMbWzPZI
 Also refer the following websites
   * https://computingforgeeks.com/complete-installation-of-kvmqemu-and-virt-manager-on-arch-linux-and-manjaro/
   * https://kifarunix.com/how-to-fix-qemu-kvm-not-connected-error-on-ubuntu-20-04/
-
-
 
 ===========================================================================
 
