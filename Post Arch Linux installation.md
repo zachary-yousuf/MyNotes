@@ -1,4 +1,4 @@
-==Post Arch Installation==
+#==Post Arch Installation==
 
 1. Create new user and add to sudoer list
 	* $ useradd -mG wheel zachary
