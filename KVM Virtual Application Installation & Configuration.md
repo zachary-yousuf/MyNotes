@@ -28,8 +28,8 @@ G4. Add the user to libvirt group using following command
       * Create a new file as br10.xml
       * copy following content to it
 ---
-'''
-<network>
+'''bash
+    <network>
 	<name>br10</name>
 		<forward mode='nat'>
 			<nat>
@@ -42,7 +42,7 @@ G4. Add the user to libvirt group using following command
 		<range start='192.168.30.50' end='192.168.30.200'/>
 	</dhcp>
 	</ip>
-</network>
+    </network>
 '''
 ---
       * Execute following command:
