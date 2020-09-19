@@ -52,7 +52,6 @@ G4. Add the user to libvirt group using following command
 
 For more details refer the following youtube video
   * [Youtube](https://www.youtube.com/watch?v=t-VpMbWzPZI "Youtube")
-Also refer the following websites
   * [Computing for geeks](https://computingforgeeks.com/complete-installation-of-kvmqemu-and-virt-manager-on-arch-linux-and-manjaro/ "Computing for geeks")
   * [Kifarunix](https://kifarunix.com/how-to-fix-qemu-kvm-not-connected-error-on-ubuntu-20-04/ "Kifarunix")
 ---
