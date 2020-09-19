@@ -45,10 +45,12 @@ G4. Add the user to libvirt group using following command
     </network>
 ```
 ---
-      * Execute following command:
-        * sudo virsh net-define  br10.xml
-	* sudo virsh net-start br10
-	* sudo virsh net-autostart br10
+      * After creating the xml file, execute following command:
+```
+	sudo virsh net-define  br10.xml
+	sudo virsh net-start br10
+	sudo virsh net-autostart br10
+```
 
 For more details refer the following:
   * [Youtube](https://www.youtube.com/watch?v=t-VpMbWzPZI "Youtube")
