@@ -1,4 +1,4 @@
-# ======Procedure for installing the KVM virtualization platform=======
+# Procedure for installing the KVM virtualization platform
 
 ---
 Before starting the installation check in the bios whether virtualization is Enabled or not.
@@ -28,6 +28,7 @@ G4. Add the user to libvirt group using following command
       * Create a new file as br10.xml
       * copy following content to it
 ---
+'''
 <network>
 	<name>br10</name>
 		<forward mode='nat'>
@@ -42,6 +43,7 @@ G4. Add the user to libvirt group using following command
 	</dhcp>
 	</ip>
 </network>
+'''
 ---
       * Execute following command:
           * sudo virsh net-define  br10.xml
@@ -53,10 +55,9 @@ For more details refer the following youtube video
 Also refer the following websites
   * [Computing for geeks](https://computingforgeeks.com/complete-installation-of-kvmqemu-and-virt-manager-on-arch-linux-and-manjaro/ "Computing for geeks")
   * [Kifarunix](https://kifarunix.com/how-to-fix-qemu-kvm-not-connected-error-on-ubuntu-20-04/ "Kifarunix")
-
 ---
 
-### =============Procedure for creating a virtual operating system=============
+### Procedure for creating a virtual operating system
 1. Run virt-manager from dmenu
 2. Click on "Create new virtual machine"
 3. In the option select "Local install media(iso image or CDROM) and click forward button
@@ -74,4 +75,5 @@ Also refer the following websites
 	* Under overview, for firmware, select UEFI x86_64: /usr/share/edk2-ovmf/x64/OVMF_CODE.secboot.fd
 	* Under boot option, enable boot menu and enable CDROM and move it to the top priority
 	* Under Video QXL, select Virtio and enable 3d acceleration
-13. Now we can begin the installation by clicking "Begin Installation"---
+13. Now we can begin the installation by clicking "Begin Installation"
+---
