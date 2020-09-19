@@ -1,6 +1,6 @@
-#Installation procedure
+# Installation procedure
 
-For more details go to https://wiki.archlinux.org/index.php/Installation_guide
+For more details go to [Archwiki](https://wiki.archlinux.org/index.php/Installation_guide "Archwiki")
 
 Now we will start the installation procedure:
 1. set the system time using the following command:
@@ -53,3 +53,4 @@ Now we will start the installation procedure:
 13. unmount all the partition using
     	* $ umount -R /mnt
 14. Reboot the system
+---

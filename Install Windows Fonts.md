@@ -1,4 +1,4 @@
-#Install Windows Fonts
+# Install Windows Fonts
 
 1. Copy Windows ISO file to Download folder.
 2. Run following commands
@@ -10,4 +10,4 @@
 	* $ fc-cache -f
 3. Installation is Complete.
 
-For more details visit:https://www.maketecheasier.com/install-microsoft-truetype-fonts-linux/
+For more details visit:[reference](https://www.maketecheasier.com/install-microsoft-truetype-fonts-linux/ "reference")
