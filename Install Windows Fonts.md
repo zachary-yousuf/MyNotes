@@ -1,4 +1,4 @@
-#==Install Windows Folds==
+#Install Windows Fonts
 
 1. Copy Windows ISO file to Download folder.
 2. Run following commands

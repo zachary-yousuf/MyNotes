@@ -1,4 +1,4 @@
-#=== Installation procedure ===
+#Installation procedure
 
 For more details go to https://wiki.archlinux.org/index.php/Installation_guide
 

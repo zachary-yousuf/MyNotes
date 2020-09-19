@@ -1,10 +1,10 @@
-#===Basic information regarding git and github===
+#Basic information regarding git and github
 
-###===Installation Procedure===
+###Installation Procedure
 sudo pacman -S git
 ============================
 
-###===Working with git in local repository===
+###Working with git in local repository
 1. "cd" to the project folder for which we are creating the git repository.
 2. "git init" command, which will initialize the local git repository.
 3. To add the user name and email id to git use the following commands:
@@ -24,7 +24,7 @@ sudo pacman -S git
 15. "git merge <branch name>" will merge the branch with master. Make sure you are in master before running the command.
 =================================
 
-###===Add new repository in github===
+###Add new repository in github
 1. Login to github
 2. Click on "+" at the top right side to create a new repository.
 3. Give a name and description to the new repository.

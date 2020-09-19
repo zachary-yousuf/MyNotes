@@ -1,4 +1,4 @@
-#========Procedure for installing the KVM virtualization platform=======
+#Procedure for installing the KVM virtualization platform
 
 Before starting the installation check in the bios whether virtualization is Enabled or not. Also run the following command command and you are getting the output as "VT-x"
 
@@ -24,12 +24,14 @@ copy following content to it ===================================================
 ====================================================== * Execute following command: * sudo virsh net-define br10.xml * sudo virsh net-start br10 * sudo virsh net-autostart br10
 For more details refer the following youtube video
 
-https://www.youtube.com/watch?v=t-VpMbWzPZI Also refer the following websites
+https://www.youtube.com/watch?v=t-VpMbWzPZI
+
+Also refer the following websites:
 https://computingforgeeks.com/complete-installation-of-kvmqemu-and-virt-manager-on-arch-linux-and-manjaro/
 https://kifarunix.com/how-to-fix-qemu-kvm-not-connected-error-on-ubuntu-20-04/
 ===========================================================================
 
-###=============Procedure for creating a virtual operating system=============
+###Procedure for creating a virtual operating system
 
 Run virt-manager from dmenu
 Click on "Create new virtual machine"
